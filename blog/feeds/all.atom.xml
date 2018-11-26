@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 bg1分組網誌</title><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/finalproject-bg1/blog/</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/finalproject-bg1/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 bg1分組網誌</title><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/finalproject-bg1/blog/</id><updated>2018-11-12T11:00:00+08:00</updated><entry><title>bg1第十週</title><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/2018-Fall-Project-Blog-1.html" rel="alternate"></link><published>2018-11-12T11:00:00+08:00</published><updated>2018-11-12T11:00:00+08:00</updated><author><name>BG1</name></author><id>tag:mdecadp2018.github.io,2018-11-12:/finalproject-bg1/blog/2018-Fall-Project-Blog-1.html</id><summary type="html">&lt;p&gt;onshape的使用介紹、onshape的簡單操作&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;onshape的使用介紹、onshape的簡單操作&lt;/p&gt;
+
+
+&lt;h2&gt;Creating an Account&lt;/h2&gt;
+&lt;p&gt;步驟：&lt;/p&gt;
+&lt;p&gt;1.打開 &lt;a href="https://www.onshape.com/"&gt;Onshape&lt;/a&gt; 網站，並選擇登入。&lt;/p&gt;
+&lt;p&gt;2.點選Sign up。&lt;/p&gt;
+&lt;p&gt;3.填寫基本資料後，前往Email認證。&lt;/p&gt;
+&lt;p&gt;4.認證後設定密碼即可完成。&lt;/p&gt;
+&lt;h2&gt;Create a Documents&lt;/h2&gt;
+&lt;p&gt;步驟：&lt;/p&gt;
+&lt;p&gt;1.登入&lt;a href="https://www.onshape.com/"&gt;Onshape&lt;/a&gt; 後，按下Create。&lt;/p&gt;
+&lt;p&gt;2.點選Documents建立新的文件檔。&lt;/p&gt;
+&lt;p&gt;3.命名Documents的名稱。&lt;/p&gt;
+&lt;p&gt;4.完成文件檔建立，即可開始畫圖。&lt;/p&gt;
+&lt;h2&gt;onshape的簡單操作&lt;/h2&gt;
+&lt;p&gt;視圖操作影片：&lt;/p&gt;
+&lt;p&gt;可使按壓滑鼠的滾輪調整各個視角，也可以由右上角的小圖切換視圖及視角。&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/i-9MyLvivw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;更改單位mm：&lt;/p&gt;
+&lt;p&gt;也可以在標註時在數值後面加上mm或in更改單位。&lt;/p&gt;
+&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/YkxTK6CfIa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;擠出：&lt;/p&gt;
+&lt;p&gt;具有方向性，也可以同時擠出兩邊。&lt;/p&gt;
+&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/KkWF_cnKKug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;旋轉：&lt;/p&gt;
+&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/f1lIkvrMoqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;掃掠：&lt;/p&gt;
+&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/h_s5q5X7uus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;斷面混成：&lt;/p&gt;
+&lt;iframe width="400" height="300" src="https://www.youtube.com/embed/r592zpYvHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/finalproject-bg1/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/finalproject-bg1/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
