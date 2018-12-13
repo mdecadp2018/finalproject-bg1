@@ -145,6 +145,7 @@ g.es(chapter_list)
 
 #os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
 g.es("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
+print("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
 g.es("PDF 轉換完畢")
 print('-'*12)</t>
 </tnodes>
