@@ -11,20 +11,18 @@ author:
 - 設計二乙 40623221 蔡和勳
 - 設計二乙 40623227 張耀元
 - 設計二乙 40623241 何冠均
-advisor_zh: 'Dr. Scrum'
-date: '2018.12.18'
+advisor_zh: '嚴家銘'
+date: '2018.12.24'
 ---
 
 ---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    因為在未來是往自動化工業發展，許多技術都將被汰換，而人工的工作也都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因此我們在選擇專題時，決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備。
+
+
+
+
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
-    
-    本研究的重點在於 ...
 ---
 
 

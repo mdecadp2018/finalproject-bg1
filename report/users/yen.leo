@@ -32,8 +32,8 @@
 </v>
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
 <v t="yen.20170429214845.1" a="E"><vh>@path paragraph</vh>
-<v t="yen.20170429214838.1" a="E"><vh>@clean computer_hardware.md</vh>
-<v t="yen.20170429214838.3"><vh>電腦硬體</vh></v>
+<v t="yen.20170429214838.1" a="E"><vh>@clean foreword.md</vh>
+<v t="yen.20170429214838.3"><vh>前言</vh></v>
 </v>
 <v t="yen.20170429215041.1" a="E"><vh>@clean operating_system.md</vh>
 <v t="yen.20170429215130.1"><vh>Windows</vh></v>
@@ -49,7 +49,7 @@
 <v t="yen.20170429215446.4"><vh>Brython</vh></v>
 <v t="yen.20170429215446.5"><vh>PyQt</vh></v>
 </v>
-<v t="yen.20170429215617.1"><vh>@clean computer_aided_design.md</vh>
+<v t="yen.20170429215617.1" a="E"><vh>@clean computer_aided_design.md</vh>
 <v t="yen.20170429215851.1"><vh>自動控制</vh></v>
 <v t="yen.20170429215830.1"><vh>機械系統模擬</vh></v>
 <v t="yen.20170429215802.1"><vh>演化運算</vh></v>
@@ -57,13 +57,13 @@
 <v t="yen.20170429215922.1" a="E"><vh>@clean leo_editor.md</vh>
 <v t="yen.20170429220001.1"><vh>Scripting</vh></v>
 </v>
-<v t="yen.20170429220128.1"><vh>@clean github.md</vh>
+<v t="yen.20170429220128.1" a="E"><vh>@clean github.md</vh>
 <v t="yen.20170429220137.1"><vh>Github</vh></v>
 </v>
-<v t="yen.20170429220231.1"><vh>@clean fossil.md</vh>
+<v t="yen.20170429220231.1" a="E"><vh>@clean fossil.md</vh>
 <v t="yen.20170429220231.2"><vh>Fossil commands</vh></v>
 </v>
-<v t="yen.20170429220335.1"><vh>@clean onshape.md</vh>
+<v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
 <v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
 </v>
 </v>
@@ -135,8 +135,8 @@ author:
 - 設計二乙 40623221 蔡和勳
 - 設計二乙 40623227 張耀元
 - 設計二乙 40623241 何冠均
-advisor_zh: 'Dr. Scrum'
-date: '2018.12.18'
+advisor_zh: '嚴家銘'
+date: '2018.12.24'
 ---
 
 @others
@@ -219,14 +219,12 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    因為在未來是往自動化工業發展，許多技術都將被汰換，而人工的工作也都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因此我們在選擇專題時，決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備。
+
+
+
+
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
-    
-    本研究的重點在於 ...
 ---
 
 
@@ -264,10 +262,10 @@ sudo apt-get install fonts-arphic-ukai</t>
 <t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案
 
 除非必要否則不更動 markdown 目錄下的 template.tex 檔案</t>
-<t tx="yen.20170429214838.1">電腦硬體
+<t tx="yen.20170429214838.1">前言
 ===
 
-電腦硬體 的概要
+
 
 @others</t>
 <t tx="yen.20170429214838.3">前言內容。

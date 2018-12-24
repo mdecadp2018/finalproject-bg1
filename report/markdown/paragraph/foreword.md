@@ -1,7 +1,7 @@
-電腦硬體
+前言
 ===
 
-電腦硬體 的概要
+
 
 前言內容。
 
@@ -16,3 +16,4 @@
 [http://www.hostmath.com/]: http://www.hostmath.com/
 
 提及了某篇刊物[@myart]在這裡。
+
