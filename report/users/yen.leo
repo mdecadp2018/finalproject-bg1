@@ -98,7 +98,7 @@ print("---Pandoc---")
 
 # 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
 chapter_list = " ".join("./paragraph/" + i for i in [
-"computer_hardware.md",
+#"computer_hardware.md",
 "operating_system.md", 
 "computer_network.md", 
 "computer_programming.md", 
@@ -118,7 +118,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 # 然後複製指令, 然後在命令列視窗中的 markdown 目錄中執行, 就可以得到錯誤訊息
 # 或許可以再從 https://stackoverflow.com/questions/26005583/return-value-of-x-os-system 中的建議改進此一指令
 os.system("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
-print("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
+g.es("pandoc cover_and_abstract.md " + chapter_list + " reference.md -o ../pdf/report.pdf {}".format(settingFlag))
 g.es("PDF 轉換完畢")
 print('-'*12)</t>
 <t tx="ahshoe.20161120121808.1"></t>
@@ -221,7 +221,11 @@ vertical: body pane on the botton</t>
 abstract: |
     因為在未來是往自動化工業發展，許多技術都將被汰換，而人工的工作也都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因此我們在選擇專題時，決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備。
 
-
+    ![Mechanical arms][]
+    
+    稱為圖 {@fig:機械手臂}。
+    
+    [Mechanical arms]: ../markdown/images/clean cover_and_abstract/Mechanical arms.png {#fig:機械手臂}
 
 
     
@@ -267,7 +271,8 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429214838.3">前言內容。
 
 \ 
@@ -281,6 +286,7 @@ sudo apt-get install fonts-arphic-ukai</t>
 [http://www.hostmath.com/]: http://www.hostmath.com/
 
 提及了某篇刊物[@myart]在這裡。
+
 </t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">操作系統
