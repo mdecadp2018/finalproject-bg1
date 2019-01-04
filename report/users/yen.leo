@@ -35,9 +35,10 @@
 <v t="yen.20170429214838.1" a="E"><vh>@clean foreword.md</vh>
 <v t="yen.20170429214838.3"><vh>前言</vh></v>
 </v>
-<v t="yen.20170429215041.1" a="E"><vh>@clean operating_system.md</vh>
-<v t="yen.20170429215130.1"><vh>Windows</vh></v>
-<v t="yen.20170429215205.1"><vh>Ubuntu</vh></v>
+<v t="yen.20170429215041.1" a="E"><vh>@clean onshape.md</vh>
+<v t="yen.20170429215130.1"><vh>Jaws</vh></v>
+<v t="leo.20190104182107.1"><vh>Gears</vh></v>
+<v t="yen.20170429215205.1"><vh>Jaws Disk</vh></v>
 </v>
 <v t="yen.20170429215252.1" a="E"><vh>@clean computer_network.md</vh>
 <v t="yen.20170429215308.1"><vh>IPv4</vh></v>
@@ -62,9 +63,6 @@
 </v>
 <v t="yen.20170429220231.1" a="E"><vh>@clean fossil.md</vh>
 <v t="yen.20170429220231.2"><vh>Fossil commands</vh></v>
-</v>
-<v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
-<v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
 </v>
 </v>
 </v>
@@ -99,7 +97,9 @@ print("---Pandoc---")
 # 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
 chapter_list = " ".join("./paragraph/" + i for i in [
 #"computer_hardware.md",
-"operating_system.md", 
+#"operating_system.md", 
+"foreword.md",
+"onshape.md",
 "computer_network.md", 
 "computer_programming.md", 
 "computer_aided_design.md", 
@@ -245,6 +245,29 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 <t tx="leo.20171119233845.1">https://sourceforge.net/p/miktex/discussion/33790/thread/fcf98fa1/</t>
 <t tx="leo.20171119234752.1"></t>
 <t tx="leo.20171119234822.1"></t>
+<t tx="leo.20190104182107.1">Gears
+---
+齒輪
+
+齒輪的目的在於，
+
+
+![Gear][]
+
+[Gear]: ../markdown/images/onshape/Gear.png {#fig:齒輪}
+
+
+![Gear Front][]
+
+[Gear Front]: ../markdown/images/onshape/Gear Front.png {#fig:齒輪前視圖}
+
+
+![Gear Features][]
+
+[Gear Features]: ../markdown/images/onshape/Gear Features.png {#fig:齒輪特徵列表}
+
+    
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429110328.1"></t>
@@ -290,40 +313,43 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 </t>
 <t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429215041.1">操作系統
+<t tx="yen.20170429215041.1">Onshape
 ===
 
-操作系統 的概要
+機械手臂各部位介紹
 
 @others</t>
-<t tx="yen.20170429215130.1">Windows
+<t tx="yen.20170429215130.1">Jaws
 ---
+夾爪
 
-Windows 的內容
+夾爪的目的在於夾取物品，夾爪的形狀會影響夾持力道及夾持的物件外型限制，因此夾爪外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
 
-有一張圖片：
 
-![Kmol][]
+![Jaws][]
 
-稱為圖 {@fig:駱駝}。
+[Jaws]: ../markdown/images/onshape/jaws.png {#fig:夾爪}
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
 
-</t>
-<t tx="yen.20170429215205.1">Ubuntu
+
+夾爪前視圖上可看出有畫鍵槽，是為了搭配軸而設計的，軸上再接馬達則可使夾爪做開合運動，而達到夾取物品的動作。
+
+![Jaws Front][]
+
+[Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
+
+    
+---</t>
+<t tx="yen.20170429215205.1">Jaws Disk
 ---
+夾爪圓盤
 
-Ubuntu 的內容
 
-有一張圖片：
 
-![Kmol][]
 
-稱為圖 {@fig:駱駝}。
+![Jaws Disk][]
 
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-[Kmol]: ./images/operating_system/kmol.png {#fig:駱駝}</t>
+[Jaws Disk]: ../markdown/images/onshape/Jaws Disk.png {#fig:夾爪圓盤}</t>
 <t tx="yen.20170429215252.1">電腦網路
 ===
 
@@ -626,15 +652,5 @@ Fossil SCM 的概要
 ---
 
 Fossil Commands 的內容</t>
-<t tx="yen.20170429220335.1">OnShape
-===
-
-OnShape 的概要
-
-@others</t>
-<t tx="yen.20170429220335.2">FeatureScript
----
-
-FeatureScript 的內容</t>
 </tnodes>
 </leo_file>
