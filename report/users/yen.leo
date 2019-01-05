@@ -36,9 +36,11 @@
 <v t="yen.20170429214838.3"><vh>前言</vh></v>
 </v>
 <v t="yen.20170429215041.1" a="E"><vh>@clean onshape.md</vh>
-<v t="yen.20170429215130.1"><vh>Jaws</vh></v>
+<v t="yen.20170429215130.1"><vh>Arms</vh></v>
+<v t="leo.20190105091307.1"><vh>Jaws</vh></v>
 <v t="leo.20190104182107.1"><vh>Gears</vh></v>
 <v t="yen.20170429215205.1"><vh>Jaws Disk</vh></v>
+<v t="leo.20190105093945.1"><vh>images</vh></v>
 </v>
 <v t="yen.20170429215252.1" a="E"><vh>@clean computer_network.md</vh>
 <v t="yen.20170429215308.1"><vh>IPv4</vh></v>
@@ -252,21 +254,98 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 齒輪的目的在於，
 
 
-![Gear][]
+    
+</t>
+<t tx="leo.20190105091307.1">Jaws
+---
+夾爪
 
-[Gear]: ../markdown/images/onshape/Gear.png {#fig:齒輪}
+夾爪的目的在於夾取物品，夾爪的形狀會影響夾持力道及夾持的物件外型限制，因此夾爪外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
+
+夾爪前視圖上可看出有畫鍵槽，是為了搭配軸而設計的，軸上再接馬達則可使夾爪做開合運動，而達到夾取物品的動作。
 
 
-![Gear Front][]
 
-[Gear Front]: ../markdown/images/onshape/Gear Front.png {#fig:齒輪前視圖}
 
+    
+
+
+</t>
+<t tx="leo.20190105093945.1">![Arm Features][]
+
+[Arm Features]: ../markdown/images/onshape/arm Features.png {#fig:手臂特徵列表}
+
+![Arm1-1][]
+
+[Arm1-1]: ../markdown/images/onshape/arm1-1.png {#fig:手臂1-1}
+
+![Arm1-2][]
+
+[Arm1-2]: ../markdown/images/onshape/arm1-2.png {#fig:手臂1-2}
+
+![Arm1-3][]
+
+[Arm1-3]: ../markdown/images/onshape/arm1-3.png {#fig:手臂1-3}
+
+![Arm1-4][]
+
+[Arm1-4]: ../markdown/images/onshape/arm1-4.png {#fig:手臂1-4}
+
+![Arm1-5][]
+
+[Arm1-5]: ../markdown/images/onshape/arm1-5.png {#fig:手臂1-5}
+
+![Arm2-1][]
+
+[Arm2-1]: ../markdown/images/onshape/arm2-1.png {#fig:手臂2-1}
+
+![Arm2-2][]
+
+[Arm2-2]: ../markdown/images/onshape/arm2-2.png {#fig:手臂2-2}
+
+![Arm3-1][]
+
+[Arm3-1]: ../markdown/images/onshape/arm3-1.png {#fig:手臂3-1}
+
+![Arm3-2][]
+
+[Arm3-2]: ../markdown/images/onshape/arm3-2.png {#fig:手臂3-2}
+
+![Arm3-3][]
+
+[Arm3-3]: ../markdown/images/onshape/arm3-3.png {#fig:手臂3-3}
+
+![Arm3-4][]
+
+[Arm3-4]: ../markdown/images/onshape/arm3-4.png {#fig:手臂3-4}
+
+![Arm][]
+
+[Arm]: ../markdown/images/onshape/arm.png {#fig:手臂}
+
+![Jaws][]
+
+[Jaws]: ../markdown/images/onshape/jaws.png {#fig:夾爪}
+
+![Jaws Front][]
+
+[Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
 
 ![Gear Features][]
 
 [Gear Features]: ../markdown/images/onshape/Gear Features.png {#fig:齒輪特徵列表}
 
-    
+![Gear][]
+
+[Gear]: ../markdown/images/onshape/Gear.png {#fig:齒輪}
+
+![Gear Front][]
+
+[Gear Front]: ../markdown/images/onshape/Gear Front.png {#fig:齒輪前視圖}
+
+![Jaws Disk][]
+
+[Jaws Disk]: ../markdown/images/onshape/Jaws Disk.png {#fig:夾爪圓盤}
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -318,28 +397,17 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 機械手臂各部位介紹
 
-@others</t>
-<t tx="yen.20170429215130.1">Jaws
+@others
+</t>
+<t tx="yen.20170429215130.1">Arms
 ---
-夾爪
+手臂
 
-夾爪的目的在於夾取物品，夾爪的形狀會影響夾持力道及夾持的物件外型限制，因此夾爪外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
-
-
-![Jaws][]
-
-[Jaws]: ../markdown/images/onshape/jaws.png {#fig:夾爪}
-
-
-
-夾爪前視圖上可看出有畫鍵槽，是為了搭配軸而設計的，軸上再接馬達則可使夾爪做開合運動，而達到夾取物品的動作。
-
-![Jaws Front][]
-
-[Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
 
     
----</t>
+
+
+</t>
 <t tx="yen.20170429215205.1">Jaws Disk
 ---
 夾爪圓盤
@@ -347,15 +415,16 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 
 
-![Jaws Disk][]
 
-[Jaws Disk]: ../markdown/images/onshape/Jaws Disk.png {#fig:夾爪圓盤}</t>
+
+</t>
 <t tx="yen.20170429215252.1">電腦網路
 ===
 
 電腦網路 的概要
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429215308.1">IPv4
 ---
 
@@ -369,7 +438,9 @@ IPv4 的內容
 
 各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
 
-[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}</t>
+[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}
+
+</t>
 <t tx="yen.20170429215316.1">IPv6
 ---
 
@@ -385,7 +456,10 @@ IPv6 的內容
 
 [google]: http://www.google.com
 
-[google] test</t>
+[google] test
+
+
+</t>
 <t tx="yen.20170429215416.1">計算機程式
 ===
 
