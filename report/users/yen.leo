@@ -47,7 +47,8 @@
 <v t="leo.20190105093945.1"><vh>images</vh></v>
 </v>
 <v t="yen.20170429215252.1" a="E"><vh>@clean divide_the_work.md</vh>
-<v t="yen.20170429215308.1"><vh>分工</vh></v>
+<v t="yen.20170429215308.1"><vh>Onshape繪製分工</vh></v>
+<v t="leo.20190105174003.1"><vh>網站分工</vh></v>
 </v>
 <v t="yen.20170429215416.1" a="E"><vh>@clean computer_programming.md</vh>
 <v t="yen.20170429215446.2"><vh>C</vh></v>
@@ -107,15 +108,15 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "onshape.md",
 "divide_the_work.md", 
 #"computer_network.md", 
-"computer_programming.md", 
-"computer_aided_design.md", 
-"leo_editor.md", 
-"github.md", 
-"fossil.md", 
+#"computer_programming.md", 
+#"computer_aided_design.md", 
+#"leo_editor.md", 
+#"github.md", 
+#"fossil.md", 
 #"onshape.md", 
-"cmsimfly.md", 
-"pygrouf.md", 
-"pyslvs.md", 
+#"cmsimfly.md", 
+#"pygrouf.md", 
+#"pyslvs.md", 
 #"pylinkage.md", 
 #"pyduino.md", 
 ])
@@ -446,6 +447,20 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 
 
 </t>
+<t tx="leo.20190105174003.1">Website maintain 網站維護
+---
+
+Table: 網站維護組員分工 {#tbl:工作分配表}
+
+| Student Nember | Name | Work |
+|:--------------------:|:----------:|:--------------------------------------------------------------:|
+| 40623201 | 王君庭 | 製作Onshape手冊、pdf製作 、更新出缺席狀況、更新心得|
+| 40623204 | 張晏晴 | 製作Onshape手冊、更新心得 |
+| 40623212 | 魏有泉 | 更新每周進度、修正錯誤、製作簡介、更新心得 |
+| 40623221 | 蔡和勳 | 製作部落格、更新心得 |
+| 40623227 | 張耀元 | 製作Onshape手冊、pdf製作、更新心得 |
+| 40623240 | 何冠均 | 製作簡報、更新出缺席狀況、更新心得 |
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429110328.1"></t>
@@ -508,7 +523,7 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 @others
 </t>
-<t tx="yen.20170429215308.1">Mechanical arms draw 機械手臂繪製
+<t tx="yen.20170429215308.1">Mechanical arms draw and simulation 機械手臂繪製及模擬
 ---
 
 Table: Onshape繪製組員分工 {#tbl:工作分配表}
@@ -517,9 +532,9 @@ Table: Onshape繪製組員分工 {#tbl:工作分配表}
 |:--------------------:|:----------:|:--------------------------------------------------------------:|
 | 40623201 | 王君庭 | 繪製Onshape夾爪部分 |
 | 40623204 | 張晏晴 | 繪製Onshape夾爪部分 |
-| 40623212 | 魏有泉 | 繪製Onshape手臂部分、機械手臂組合 |
+| 40623212 | 魏有泉 | 繪製Onshape手臂部分、機械手臂組合、V-rep模擬 |
 | 40623221 | 蔡和勳 | 繪製Onshape底座部分 |
-| 40623227 | 張耀元 | 繪製Onshape手臂部分、機械手臂組合 |
+| 40623227 | 張耀元 | 繪製Onshape手臂部分、機械手臂組合、V-rep模擬 |
 | 40623240 | 何冠均 | 繪製Onshape底座部分 |
 </t>
 <t tx="yen.20170429215416.1">計算機程式
