@@ -46,9 +46,8 @@
 <v t="leo.20190105091307.1"><vh>Jaws</vh></v>
 <v t="leo.20190105093945.1"><vh>images</vh></v>
 </v>
-<v t="yen.20170429215252.1" a="E"><vh>@clean computer_network.md</vh>
-<v t="yen.20170429215308.1"><vh>IPv4</vh></v>
-<v t="yen.20170429215316.1"><vh>IPv6</vh></v>
+<v t="yen.20170429215252.1" a="E"><vh>@clean divide the work.md</vh>
+<v t="yen.20170429215308.1"><vh>分工</vh></v>
 </v>
 <v t="yen.20170429215416.1" a="E"><vh>@clean computer_programming.md</vh>
 <v t="yen.20170429215446.2"><vh>C</vh></v>
@@ -106,7 +105,8 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 #"operating_system.md", 
 "foreword.md",
 "onshape.md",
-"computer_network.md", 
+"divide the work.md",
+#"computer_network.md", 
 "computer_programming.md", 
 "computer_aided_design.md", 
 "leo_editor.md", 
@@ -403,9 +403,9 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 
 [Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
 
-![Mechanical Arms][]
+![Mechanical Arms Overall][]
 
-[Mechanical Arms]: ../markdown/images/onshape/mechanical arms.png {#fig:機械手臂整體}
+[Mechanical Arms Overall]: ../markdown/images/onshape/mechanical arms overall.png {#fig:機械手臂整體}
 
 ![Mechanical Arms Right][]
 
@@ -515,46 +515,25 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 
 </t>
-<t tx="yen.20170429215252.1">電腦網路
+<t tx="yen.20170429215252.1"> Divide the Work
 ===
 
-電腦網路 的概要
+
 
 @others
 </t>
-<t tx="yen.20170429215308.1">IPv4
+<t tx="yen.20170429215308.1">Divide the Work
 ---
+Table: Divide the Work 組員分工 {#tbl:工作分配表}
 
-IPv4 的內容
-
-有一張圖片：
-
-![Kmol][]
-
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-[Kmol]: ./images/computer_network/kmol.png {#fig:駱駝}
-
-</t>
-<t tx="yen.20170429215316.1">IPv6
----
-
-IPv6 的內容
-
-有一張圖片：
-
-![Kmol][]
-
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案 [google]
-
-[google]: http://www.google.com
-
-[google] test
-
+| Student Nember | Name | Work |
+|:--------------------:|:----------:|:--------------------------------------------------------------:|
+| 40623201 | 王君庭 | 繪製Onshape夾爪部分、製作Onshape手冊 |
+| 40623204 | 張晏晴 | 製作Onshape手冊 |
+| 40623212 | 魏有泉 |  |
+| 40623221 | 蔡和勳 |  |
+| 40623227 | 張耀元 | 繪製Onshape手臂部分、製作Onshape手冊 |
+| 40623240 | 何冠均 | 繪製Onshape底座部分 |divide the work
 
 </t>
 <t tx="yen.20170429215416.1">計算機程式
