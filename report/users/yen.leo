@@ -46,7 +46,7 @@
 <v t="leo.20190105091307.1"><vh>Jaws</vh></v>
 <v t="leo.20190105093945.1"><vh>images</vh></v>
 </v>
-<v t="yen.20170429215252.1" a="E"><vh>@clean divide the work.md</vh>
+<v t="yen.20170429215252.1" a="E"><vh>@clean divide_the_work.md</vh>
 <v t="yen.20170429215308.1"><vh>分工</vh></v>
 </v>
 <v t="yen.20170429215416.1" a="E"><vh>@clean computer_programming.md</vh>
@@ -105,7 +105,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 #"operating_system.md", 
 "foreword.md",
 "onshape.md",
-"divide the work.md",
+"divide_the_work.md", 
 #"computer_network.md", 
 "computer_programming.md", 
 "computer_aided_design.md", 
@@ -474,21 +474,7 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 @others
 </t>
-<t tx="yen.20170429214838.3">前言內容。
-
-
-\ 
-
-一個範例數學式：$$\beta=\cos^{-1}{\frac{L0^{2}+d_{AB}^{2}-R0^{2}}{2\times{L0\times{d_{AB}}}}}$$
-
-\ 
-
-關於數學式可以參考這裡：[http://www.hostmath.com/][]
-
-[http://www.hostmath.com/]: http://www.hostmath.com/
-
-提及了某篇刊物[@myart]在這裡。
-
+<t tx="yen.20170429214838.3">我們製作的是機械手臂，而我們的夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利，使用機械手臂取代人力。人力會被取代不過我們的腦袋是不會的，所以我們就選擇了設計機械手臂做為我們這組的主題，機械手臂擁有360度的旋轉以及搖擺設計。
 </t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">Onshape
@@ -515,26 +501,26 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 
 </t>
-<t tx="yen.20170429215252.1"> Divide the Work
+<t tx="yen.20170429215252.1">Divide the Work
 ===
 
 
 
 @others
 </t>
-<t tx="yen.20170429215308.1">Divide the Work
+<t tx="yen.20170429215308.1">Mechanical arms draw 機械手臂繪製
 ---
-Table: Divide the Work 組員分工 {#tbl:工作分配表}
+
+Table: Onshape繪製組員分工 {#tbl:工作分配表}
 
 | Student Nember | Name | Work |
 |:--------------------:|:----------:|:--------------------------------------------------------------:|
-| 40623201 | 王君庭 | 繪製Onshape夾爪部分、製作Onshape手冊 |
-| 40623204 | 張晏晴 | 製作Onshape手冊 |
-| 40623212 | 魏有泉 |  |
-| 40623221 | 蔡和勳 |  |
-| 40623227 | 張耀元 | 繪製Onshape手臂部分、製作Onshape手冊 |
-| 40623240 | 何冠均 | 繪製Onshape底座部分 |divide the work
-
+| 40623201 | 王君庭 | 繪製Onshape夾爪部分 |
+| 40623204 | 張晏晴 | 繪製Onshape夾爪部分 |
+| 40623212 | 魏有泉 | 繪製Onshape手臂部分、機械手臂組合 |
+| 40623221 | 蔡和勳 | 繪製Onshape底座部分 |
+| 40623227 | 張耀元 | 繪製Onshape手臂部分、機械手臂組合 |
+| 40623240 | 何冠均 | 繪製Onshape底座部分 |
 </t>
 <t tx="yen.20170429215416.1">計算機程式
 ===
