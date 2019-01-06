@@ -406,7 +406,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106104632.2">Spindle 主軸：為了配合手臂旋轉所以設計成圓柱狀，並且為了讓手臂搖擺所以有設計凹槽，還有在手臂旋轉旁邊設計了放置馬達的地方以帶動手臂搖擺。</t>
+<t tx="leo.20190106104632.2">Spindle 主軸：為了配合手臂旋轉所以設計成圓柱狀，並且為了讓手臂搖擺所以有設計凹槽，還有在手臂旋轉旁邊設計了放置馬達的地方以帶動手臂搖擺。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
 <t tx="leo.20190106111724.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -423,7 +425,10 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106111753.2">Motor Seat 馬達座：為了放置馬達讓馬達位置固定，左邊孔洞目的是配合馬達形狀而設置。</t>
+<t tx="leo.20190106111753.2">Motor Seat 馬達座：為了放置馬達讓馬達位置固定，左邊孔洞目的是配合馬達形狀而設置。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/Pk5R1h.jpg
+ &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
 <t tx="leo.20190106112103.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -473,7 +478,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 						
 </t>
 <t tx="leo.20190106112129.2">Gears 齒輪：目的在於如何使夾爪嚙合時達到同步的動作，運用齒輪傳遞也可減少馬達
-的使用，但目前在測試中，暫無放上去組合。</t>
+的使用，但目前在測試中，暫無放上去組合。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
 <t tx="leo.20190106112447.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -485,6 +492,8 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106112447.2"> Jaws 夾爪：目的在於夾取物品，形狀會影響夾持力道及夾持的物件外型限制，因此外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。</t>
+<t tx="leo.20190106112447.2"> Jaws 夾爪：目的在於夾取物品，形狀會影響夾持力道及夾持的物件外型限制，因此外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
+ 
+ &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
 </tnodes>
 </leo_file>
