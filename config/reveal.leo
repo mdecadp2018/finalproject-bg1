@@ -28,10 +28,10 @@
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>機械手臂內容</vh>
-<v t="leo.20180827201621.14"><vh>摘要</vh>
+<v t="leo.20180827201621.14" a="E"><vh>摘要</vh>
 <v t="leo.20180827201621.15"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.16"><vh>前言</vh>
+<v t="leo.20180827201621.16" a="E"><vh>前言</vh>
 <v t="leo.20180827201621.17"><vh>內容</vh></v>
 </v>
 <v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
@@ -194,7 +194,7 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20180827201621.15">### 摘要
+<t tx="leo.20180827201621.15"># 摘要
 
 機械手臂夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利。設計目標為讓機械手臂擁有360度的旋轉以及搖擺設計。
 </t>
@@ -209,7 +209,7 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20180827201621.17">### 前言
+<t tx="leo.20180827201621.17"># 前言
 
 因為在未來是往自動化工業發展，許多技術都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因次我們在選擇專題時決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備
 </t>
@@ -361,11 +361,11 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106100459.2">### 軟體
+<t tx="leo.20190106100459.2"># 軟體
 
-#[Onshape]:https://www.onshape.com/
+#Onshape:'https://www.onshape.com/'
 
-#[V-rep]:http://www.coppeliarobotics.com/
+#V-rep:'http://www.coppeliarobotics.com/'
 
 </t>
 </tnodes>
