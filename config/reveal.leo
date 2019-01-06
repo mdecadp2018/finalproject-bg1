@@ -37,20 +37,25 @@
 <v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
 <v t="leo.20190106100459.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106103652.1" a="E"><vh>機械手臂各部位介紹-1</vh>
-<v t="leo.20190106103652.2"><vh>內容</vh></v>
+<v t="leo.20180827201621.18"><vh>模擬影片</vh>
+<v t="leo.20180827201621.19"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106104016.1" a="E"><vh>機械手臂各部位介紹-2</vh>
-<v t="leo.20190106104016.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106111724.1" a="E"><vh>第一週</vh>
+<v t="leo.20190106111753.1" a="E"><vh>機械手臂各部位介紹-4</vh>
+<v t="leo.20190106111753.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190106104632.1" a="E"><vh>機械手臂各部位介紹-3</vh>
 <v t="leo.20190106104632.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106104802.1" a="E"><vh>機械手臂各部位介紹-4</vh>
-<v t="leo.20190106104802.2"><vh>內容</vh></v>
+<v t="leo.20190106104016.1" a="E"><vh>機械手臂各部位介紹-2</vh>
+<v t="leo.20190106104016.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>模擬影片</vh>
-<v t="leo.20180827201621.19"><vh>內容</vh></v>
+<v t="leo.20190106103652.1" a="E"><vh>機械手臂各部位介紹-1</vh>
+<v t="leo.20190106103652.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106111724.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20190106111724.3"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -401,7 +406,12 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 夾爪前視圖上可看出有畫鍵槽，是為了搭配軸而設計的，軸上再接馬達則可使夾爪做開合運動，而達到夾取物品的動作。
 
 </t>
-<t tx="leo.20190106104802.1">&lt;section data-markdown&gt;
+<t tx="leo.20190106111724.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190106111724.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -412,7 +422,30 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106104802.2">* Gears 齒輪
+<t tx="leo.20190106111724.3">### Week 1
+
+* 內容
+
+在github帳號下，新增一個New repository
+名為 : 學號.github.io
+
+1.將自己新增的倉儲與老師的倉儲 clone 下來綁定帳號及用 SciTE 確認是否正確
+
+2.用 git status 查看所有檔案目前的狀況，之後再  git add . &gt; git commit -m "initial add " &gt;git push ，將剛剛新增的檔案推上去
+
+</t>
+<t tx="leo.20190106111753.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106111753.2">* Gears 齒輪
 齒輪的目的在於如何使夾爪嚙合時達到同步的動作，運用齒輪傳遞也可減少馬達的使用，但目前在測試中，暫無放上去組合。
 齒輪特徵列表上的變數，目的在於利用設定模數、齒數、壓力角達到可變動之節圓直徑、大徑、小徑等，可以針對齒輪不同大小而做更動，但有些無法設變數之地方還是需要手動更改。
 * Jaws 夾爪
