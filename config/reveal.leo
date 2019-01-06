@@ -134,13 +134,14 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10">### bg1分組簡報
 
-### 虎科大機械設計工程系
+## 虎科大機械設計工程系
 
-### mechanical arms
+## mechanical arms
 
-機械手臂
+## 機械手臂
 
 #Members
+
  *40623201 王君庭
 *40623204 張晏晴
 *40623212 魏有泉
