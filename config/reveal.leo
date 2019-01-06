@@ -358,11 +358,10 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 [Onshape]:https://www.onshape.com/
 
-&lt; section  data-background-image = “https://upload.cc/i1/2019/01/06/zISbnP.png  ” &gt;
+&lt; section  data-image = url(“https://upload.cc/i1/2019/01/06/zISbnP.png  ”)
 &lt;/ section &gt;
 
-&lt;section data-background-image="https://upload.wikimedia.org/wikipedia/commons/7/71/Black-headed_weaver_(Ploceus_cucullatus_bohndorffi)_male_nest_building.jpg"&gt;
-&lt;/section&gt;
+
 
 [V-rep]
 
