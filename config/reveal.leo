@@ -49,13 +49,8 @@
 <v t="leo.20190106104802.1" a="E"><vh>機械手臂各部位介紹-4</vh>
 <v t="leo.20190106104802.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.18"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
-</v>
-</v>
-<v t="leo.20190106093749.1" a="E"><vh>第十週</vh>
-<v t="leo.20190106093749.2" a="E"><vh>分支(向下)</vh>
-<v t="leo.20190106093749.3"><vh>內容</vh></v>
+<v t="leo.20180827201621.18" a="E"><vh>模擬影片</vh>
+<v t="leo.20180827201621.19"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -328,34 +323,6 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 
 						
-</t>
-<t tx="leo.20190106093749.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20190106093749.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190106093749.3">### Week 1
-
-* 內容
-
-在github帳號下，新增一個New repository
-名為 : 學號.github.io
-
-1.將自己新增的倉儲與老師的倉儲 clone 下來綁定帳號及用 SciTE 確認是否正確
-
-2.用 git status 查看所有檔案目前的狀況，之後再  git add . &gt; git commit -m "initial add " &gt;git push ，將剛剛新增的檔案推上去
-
 </t>
 <t tx="leo.20190106100459.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
