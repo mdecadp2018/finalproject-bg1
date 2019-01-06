@@ -50,13 +50,10 @@
 <v t="yen.20170429215308.1"><vh>Onshape繪製分工</vh></v>
 <v t="leo.20190105174003.1"><vh>網站分工</vh></v>
 </v>
-<v t="yen.20170429215416.1" a="E"><vh>@clean computer_programming.md</vh>
-<v t="yen.20170429215446.2"><vh>C</vh></v>
-<v t="yen.20170429215446.3"><vh>Python</vh></v>
-<v t="yen.20170429215446.4"><vh>Brython</vh></v>
-<v t="yen.20170429215446.5"><vh>PyQt</vh></v>
+<v t="yen.20170429215416.1" a="E"><vh>@clean vrep.md</vh>
+<v t="yen.20170429215446.2"><vh>vrep模擬</vh></v>
 </v>
-<v t="yen.20170429215617.1" a="E"><vh>@clean computer_aided_design.md</vh>
+<v t="yen.20170429215617.1" a="E"><vh>@clean diacuss_and_suggestion.md</vh>
 <v t="yen.20170429215851.1"><vh>自動控制</vh></v>
 <v t="yen.20170429215830.1"><vh>機械系統模擬</vh></v>
 <v t="yen.20170429215802.1"><vh>演化運算</vh></v>
@@ -107,6 +104,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "foreword.md",
 "onshape.md",
 "divide_the_work.md", 
+"vrep.md", 
 #"computer_network.md", 
 #"computer_programming.md", 
 #"computer_aided_design.md", 
@@ -537,138 +535,36 @@ Table: Onshape繪製組員分工 {#tbl:工作分配表}
 | 40623227 | 張耀元 | 繪製Onshape手臂部分、機械手臂組合、V-rep模擬 |
 | 40623240 | 何冠均 | 繪製Onshape底座部分 |
 </t>
-<t tx="yen.20170429215416.1">計算機程式
+<t tx="yen.20170429215416.1">V-rep
 ===
 
-計算機程式 的概要
+
 
 @others</t>
-<t tx="yen.20170429215446.2">C
+<t tx="yen.20170429215446.2">V-rep模擬
 ---
 
-C 的內容
+這是最剛開始沒有給機械手臂定位，而讓它自由移動，無法看出機械手臂的移動路徑。
 
-其中包含一個表格：
+![機械手臂運動][]
 
-Table: Python 網際框架比較 {#tbl:網際框架}
+[機械手臂運動]: ../markdown/images/vrep/機械手臂運動.gif {#fig:機械手臂運動}
 
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
 
-稱為表 {@tbl:網際框架}。
+這則是我幫機械手臂多加了 tip 和  target 讓機械手臂有一個目標可以移動，可以更確定說機械手臂的移動路徑。
 
-Table: 價目表 {#tbl:價目表}
+![Y軸方向運動][]
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+[Y軸方向運動]: ../markdown/images/vrep/手臂Y軸方向運動.gif {#fig:Y軸方向運動}
 
-稱為表 {@tbl:價目表}。
+![X軸方向旋轉][]
 
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
+[X軸方向旋轉]: ../markdown/images/vrep/爪盤X軸方向旋轉.gif {#fig:X軸方向旋轉}
 
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
+![Z軸方向旋轉][]
 
-</t>
-<t tx="yen.20170429215446.3">Python
----
+[Z軸方向旋轉]: ../markdown/images/vrep/底盤Z軸方向旋轉.gif {#fig:Z軸方向旋轉}
 
-Python 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
-</t>
-<t tx="yen.20170429215446.4">Brython
----
-
-Brython 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
-</t>
-<t tx="yen.20170429215446.5">PyQt
----
-
-PyQt 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
 
 </t>
 <t tx="yen.20170429215617.1">電腦輔助設計
