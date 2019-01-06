@@ -358,9 +358,6 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 [Onshape]:https://www.onshape.com/
 
-![Mechanical Arms Overall][]
-
-[Mechanical Arms Overall]: ./images/mechanical arms overall.png {#fig:機械手臂整體}
 
 [V-rep]
 
