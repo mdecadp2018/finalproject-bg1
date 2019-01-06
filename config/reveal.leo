@@ -37,8 +37,11 @@
 <v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
 <v t="leo.20190106100459.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.18"><vh>模擬影片</vh>
-<v t="leo.20180827201621.19"><vh>內容</vh></v>
+<v t="leo.20180827201621.18" a="E"><vh>模擬影片</vh>
+<v t="leo.20180827201621.19"><vh>內容1</vh></v>
+</v>
+<v t="leo.20190106205619.1" a="E"><vh>模擬影片1</vh>
+<v t="leo.20190106205619.3"><vh>內容2</vh></v>
 </v>
 </v>
 <v t="leo.20190106111724.1" a="E"><vh>第一週</vh>
@@ -156,15 +159,11 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10"># BG1分組報告
-
+<t tx="leo.20180827201621.10">BG1分組報告
 
 虎科大機械設計工程系
 
-## Mechanical Arms 機械手臂
-
-
-Members
+Mechanical Arms 機械手臂
 
 40623201 王君庭40623204 張晏晴40623212 魏有泉40623221 蔡和勳40623227 張耀元40623240 何冠均
 
@@ -241,11 +240,8 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
+<t tx="leo.20180827201621.19">## V-rep 模擬影片
 
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
@@ -394,7 +390,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 						
 </t>
 <t tx="leo.20190106104016.2">Base 底座：配合主軸設計的，有孔為了跟主軸配合組裝旁邊有設計放置馬達的地方為
-了帶動主軸旋轉。</t>
+了帶動主軸旋轉。
+
+</t>
 <t tx="leo.20190106104632.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -408,7 +406,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190106104632.2">Spindle 主軸：為了配合手臂旋轉所以設計成圓柱狀，並且為了讓手臂搖擺所以有設計凹槽，還有在手臂旋轉旁邊設計了放置馬達的地方以帶動手臂搖擺。
 
-&lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+&lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
+
+</t>
 <t tx="leo.20190106111724.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -428,7 +428,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 <t tx="leo.20190106111753.2">Motor Seat 馬達座：為了放置馬達讓馬達位置固定，左邊孔洞目的是配合馬達形狀而設置。
 
 &lt;img src=https://upload.cc/i1/2019/01/06/Pk5R1h.jpg
- &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+ &lt;width="252" heith="316"&gt;&lt;/a&gt;
+
+</t>
 <t tx="leo.20190106112103.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -440,7 +442,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106112103.2">Base Cover 底座蓋：為了使底座的馬達以及主軸順利運動而設計，也避免有其他異物勿入導致馬達無法順利運作。</t>
+<t tx="leo.20190106112103.2">Base Cover 底座蓋：為了使底座的馬達以及主軸順利運動而設計，也避免有其他異物勿入導致馬達無法順利運作。
+
+</t>
 <t tx="leo.20190106112105.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -453,7 +457,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 						
 </t>
 <t tx="leo.20190106112105.2">Arms 手臂：因為要配合夾爪作動，在手臂的規劃也是很重要的，因此在畫時選擇做三
-節式的手臂，能有更多的自由度可以運動。</t>
+節式的手臂，能有更多的自由度可以運動。
+
+</t>
 <t tx="leo.20190106112108.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -465,7 +471,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20190106112108.2">Jaws Disk 夾爪圓盤：目的在於連結夾爪及手臂，並使用馬達達到夾爪可旋轉增加自由度。</t>
+<t tx="leo.20190106112108.2">Jaws Disk 夾爪圓盤：目的在於連結夾爪及手臂，並使用馬達達到夾爪可旋轉增加自由度。
+
+</t>
 <t tx="leo.20190106112129.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -480,7 +488,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 <t tx="leo.20190106112129.2">Gears 齒輪：目的在於如何使夾爪嚙合時達到同步的動作，運用齒輪傳遞也可減少馬達
 的使用，但目前在測試中，暫無放上去組合。
 
-&lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+&lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
+
+</t>
 <t tx="leo.20190106112447.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -494,6 +504,22 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190106112447.2"> Jaws 夾爪：目的在於夾取物品，形狀會影響夾持力道及夾持的物件外型限制，因此外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
  
- &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+ &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
+
+</t>
+<t tx="leo.20190106205619.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106205619.3">&lt;small&gt;
+這是最剛開始沒有給機械手臂定位，而讓它自由移動，無法看出機械手臂的移動路徑。
+&lt;/small&gt;
+&lt;img src=https://upload.cc/i1/2019/01/06/cTR3Ob.gif &lt;width="100" heith="100"&gt;&lt;/a&gt;
+</t>
 </tnodes>
 </leo_file>
