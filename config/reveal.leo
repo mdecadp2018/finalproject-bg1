@@ -358,10 +358,7 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 [Onshape]:https://www.onshape.com/
 
-&lt; section  data-image = url(“https://upload.cc/i1/2019/01/06/zISbnP.png  ”)
-&lt;/ section &gt;
-
-
+&lt;img src=https://upload.cc/i1/2019/01/06/zISbnP.png &lt;width="250" heith="300"&gt;&lt;/a&gt;
 
 [V-rep]
 
