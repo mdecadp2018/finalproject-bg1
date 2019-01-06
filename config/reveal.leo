@@ -143,9 +143,7 @@ vertical: body pane on the botton</t>
 
 虎科大機械設計工程系
 
-mechanical arms
-
-機械手臂
+mechanical arms機械手臂
 
 Members
 
