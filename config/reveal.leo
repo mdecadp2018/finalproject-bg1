@@ -138,7 +138,7 @@ vertical: body pane on the botton</t>
 
 mechanical arms
 
-## 機械手臂
+機械手臂
 
 Members
 
