@@ -27,15 +27,23 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180827201621.13" a="E"><vh>機械手臂內容</vh>
+<v t="leo.20180827201621.14"><vh>摘要</vh>
+<v t="leo.20180827201621.15"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20180827201621.16"><vh>前言</vh>
+<v t="leo.20180827201621.17"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
+<v t="leo.20190106100459.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+</v>
+</v>
+<v t="leo.20190106093749.1" a="E"><vh>第十週</vh>
+<v t="leo.20190106093749.2" a="E"><vh>分支(向下)</vh>
+<v t="leo.20190106093749.3"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -128,6 +136,19 @@ vertical: body pane on the botton</t>
 
 ### 虎科大機械設計工程系
 
+### mechanical arms
+
+機械手臂
+
+Members : 40623201 王君庭
+40623204 張晏晴
+40623212 魏有泉
+40623221 蔡和勳
+40623227 張耀元
+40623240 何冠均
+
+指導教授：嚴家銘
+
 &lt;small&gt;
 Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 &lt;/small&gt;
@@ -171,12 +192,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
+<t tx="leo.20180827201621.15">### 摘要
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+機械手臂夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利。設計目標為讓機械手臂擁有360度的旋轉以及搖擺設計。
 </t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -189,33 +207,9 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20180827201621.17">### 前言
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+因為在未來是往自動化工業發展，許多技術都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因次我們在選擇專題時決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備
 </t>
 <t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -325,6 +319,52 @@ make.start()
 
 
 						
+</t>
+<t tx="leo.20190106093749.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190106093749.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106093749.3">### Week 1
+
+* 內容
+
+在github帳號下，新增一個New repository
+名為 : 學號.github.io
+
+1.將自己新增的倉儲與老師的倉儲 clone 下來綁定帳號及用 SciTE 確認是否正確
+
+2.用 git status 查看所有檔案目前的狀況，之後再  git add . &gt; git commit -m "initial add " &gt;git push ，將剛剛新增的檔案推上去
+
+</t>
+<t tx="leo.20190106100459.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106100459.2">### 軟體
+
+#[Onshape]:https://www.onshape.com/
+
+#[V-rep]:http://www.coppeliarobotics.com/
+
 </t>
 </tnodes>
 </leo_file>
