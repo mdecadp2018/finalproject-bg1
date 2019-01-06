@@ -54,18 +54,10 @@
 <v t="yen.20170429215446.2"><vh>vrep模擬</vh></v>
 </v>
 <v t="yen.20170429215617.1" a="E"><vh>@clean diacuss_and_suggestion.md</vh>
-<v t="yen.20170429215851.1"><vh>自動控制</vh></v>
-<v t="yen.20170429215830.1"><vh>機械系統模擬</vh></v>
-<v t="yen.20170429215802.1"><vh>演化運算</vh></v>
+<v t="yen.20170429215851.1"><vh>討論與建議</vh></v>
 </v>
-<v t="yen.20170429215922.1" a="E"><vh>@clean leo_editor.md</vh>
-<v t="yen.20170429220001.1"><vh>Scripting</vh></v>
-</v>
-<v t="yen.20170429220128.1" a="E"><vh>@clean github.md</vh>
-<v t="yen.20170429220137.1"><vh>Github</vh></v>
-</v>
-<v t="yen.20170429220231.1" a="E"><vh>@clean fossil.md</vh>
-<v t="yen.20170429220231.2"><vh>Fossil commands</vh></v>
+<v t="yen.20170429215922.1" a="E"><vh>@clean completion.md</vh>
+<v t="yen.20170429220001.1"><vh>結論</vh></v>
 </v>
 </v>
 </v>
@@ -105,6 +97,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "onshape.md",
 "divide_the_work.md", 
 "vrep.md", 
+"completion.md", 
 #"computer_network.md", 
 #"computer_programming.md", 
 #"computer_aided_design.md", 
@@ -141,7 +134,7 @@ author:
 - 設計二乙 40623227 張耀元
 - 設計二乙 40623240 何冠均
 advisor_zh: '嚴家銘'
-date: '2018.12.24'
+date: '2019.01.07'
 ---
 
 @others
@@ -224,16 +217,14 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    因為在未來是往自動化工業發展，許多技術都將被汰換，而人工的工作也都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因此我們在選擇專題時，決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備。
-
+   我們製作的是機械手臂，而我們的夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利，使用機械手臂取代人力。人力會被取代不過我們的腦袋是不會的，所以我們就選擇了設計機械手臂做為我們這組的主題，機械手臂擁有360度的旋轉以及搖擺設計。
+   
     ![Mechanical arms][]
-    
-    稱為圖 {@fig:機械手臂}。
-    
+
     [Mechanical arms]: ../markdown/images/clean cover_and_abstract/Mechanical arms.png {#fig:機械手臂}
 
 
-    
+
 ---
 
 
@@ -402,10 +393,6 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 
 [Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
 
-![Mechanical Arms Overall][]
-
-[Mechanical Arms Overall]: ../markdown/images/onshape/mechanical arms overall.png {#fig:機械手臂整體}
-
 ![Mechanical Arms Right][]
 
 [Mechanical Arms Right]: ../markdown/images/onshape/mechanical arms Right.png {#fig:機械手臂右側視圖}
@@ -445,19 +432,19 @@ c:\users\cadlab\desktop\mde\python2017fall_36\data\miktex_portable\miktex-portab
 
 
 </t>
-<t tx="leo.20190105174003.1">Website maintain 網站維護
+<t tx="leo.20190105174003.1">Website Maintain 網站維護
 ---
 
 Table: 網站維護組員分工 {#tbl:工作分配表}
 
 | Student Nember | Name | Work |
 |:--------------------:|:----------:|:--------------------------------------------------------------:|
-| 40623201 | 王君庭 | 製作Onshape手冊、pdf製作 、更新出缺席狀況、更新心得|
+| 40623201 | 王君庭 | 製作Onshape手冊、PDF製作 、更新出缺席狀況、更新心得 |
 | 40623204 | 張晏晴 | 製作Onshape手冊、更新心得 |
-| 40623212 | 魏有泉 | 更新每周進度、修正錯誤、製作簡介、更新心得 |
-| 40623221 | 蔡和勳 | 製作部落格、更新心得 |
-| 40623227 | 張耀元 | 製作Onshape手冊、pdf製作、更新心得 |
-| 40623240 | 何冠均 | 製作簡報、更新出缺席狀況、pdf製作、更新心得 |
+| 40623212 | 魏有泉 | 製作部落格、更新每周進度、修正錯誤、製作簡介、更新心得 |
+| 40623221 | 蔡和勳 | 更新心得、上台報告 |
+| 40623227 | 張耀元 | 製作Onshape手冊、PDF製作、更新心得、上台報告 |
+| 40623240 | 何冠均 | 製作簡報、更新出缺席狀況、PDF製作、更新心得 |
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -487,7 +474,13 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 @others
 </t>
-<t tx="yen.20170429214838.3">我們製作的是機械手臂，而我們的夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利，使用機械手臂取代人力。人力會被取代不過我們的腦袋是不會的，所以我們就選擇了設計機械手臂做為我們這組的主題，機械手臂擁有360度的旋轉以及搖擺設計。
+<t tx="yen.20170429214838.3">
+因為在未來是往自動化工業發展，許多技術都將被汰換，而人工的工作也都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因此我們在選擇專題時，決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備。
+
+![Mechanical Arms Overall][]
+
+[Mechanical Arms Overall]: ../markdown/images/foreword/mechanical arms overall.png {#fig:機械手臂整體}
+
 </t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">Onshape
@@ -521,7 +514,7 @@ sudo apt-get install fonts-arphic-ukai</t>
 
 @others
 </t>
-<t tx="yen.20170429215308.1">Mechanical arms draw and simulation 機械手臂繪製及模擬
+<t tx="yen.20170429215308.1">Mechanical Arms Draw and Simulation 機械手臂繪製及模擬
 ---
 
 Table: Onshape繪製組員分工 {#tbl:工作分配表}
@@ -540,7 +533,8 @@ Table: Onshape繪製組員分工 {#tbl:工作分配表}
 
 
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429215446.2">V-rep模擬
 ---
 
@@ -566,138 +560,28 @@ Table: Onshape繪製組員分工 {#tbl:工作分配表}
 [Z軸方向旋轉]: ../markdown/images/vrep/底盤Z軸方向旋轉.gif {#fig:Z軸方向旋轉}
 
 
-</t>
-<t tx="yen.20170429215617.1">電腦輔助設計
-===
-
-電腦輔助設計 的概要
-
-@others</t>
-<t tx="yen.20170429215802.1">演化運算 (Evolutionary Computation)
----
-
-演化運算 (Evolutionary Computation) 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
 
 </t>
-<t tx="yen.20170429215830.1">機械系統模擬
+<t tx="yen.20170429215617.1">Diacuss and Suggestion 討論與建議
+===
+
+
+
+@others
+</t>
+<t tx="yen.20170429215851.1">討論與建議
 ---
 
-機械系統模擬 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
 
 </t>
-<t tx="yen.20170429215851.1">自動控制
----
-
-自動控制 的內容
-
-其中包含一個表格：
-
-Table: Python 網際框架比較 {#tbl:網際框架}
-
-| Framework | Started | Py2 | Py3 | ORM | Template Engine | Auth Moudule | Database Admin | Project Scale |
-|:---------:|:-------:|:---:|:---:|:---:|:---------------:|:------------:|:--------------:|:-------------:|
-| Pyramid | 2005 | V | V |  |  | V |  | large |
-| Django | 2006 | V | V | V | V | V | V | large |
-| Flask | 2010 | V |  |  |  |  |  | small |
-
-稱為表 {@tbl:網際框架}。
-
-Table: 價目表 {#tbl:價目表}
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-稱為表 {@tbl:價目表}。
-
-關於表格生成可以參考這裡：[http://www.tablesgenerator.com/markdown_tables]
-
-[http://www.tablesgenerator.com/markdown_tables]: http://www.tablesgenerator.com/markdown_tables
-
-</t>
-<t tx="yen.20170429215922.1">Leo Editor
+<t tx="yen.20170429215922.1">Completion 結論
 ===
 
-Leo Editor 的概要
+
 
 @others</t>
-<t tx="yen.20170429220001.1">Scripting
+<t tx="yen.20170429220001.1">結論
 ---
-
-Scripting 的內容</t>
-<t tx="yen.20170429220128.1">Github
-===
-
-Github 的概要
-
-@others</t>
-<t tx="yen.20170429220137.1">Github
----
-
-Github 的內容</t>
-<t tx="yen.20170429220231.1">Fossil SCM
-===
-
-Fossil SCM 的概要
-
-@others</t>
-<t tx="yen.20170429220231.2">Fossil Commands
----
-
-Fossil Commands 的內容</t>
+為了因應未來自動化發展以及智慧型時代，所以我們才選了機械手臂，但做了跟想像中的差了很多，雖然在程式這塊非常重要，但得進到程式還得經過畫圖、組合、模擬計算等等的流程，這些都是不能馬虎的，雖然我們並沒有弄得很困難，但也在這些流程中深深的體會到真的是很不簡單，不過在這後半學期中也是學到了許多，零組件的配合、組合、組合完的作動以及PDF的製作，當中最重要的就是與組員間的溝通討論，這些在未來都是我們需要學習與磨合的。</t>
 </tnodes>
 </leo_file>

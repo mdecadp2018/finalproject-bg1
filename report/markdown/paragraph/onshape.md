@@ -198,10 +198,6 @@ Jaws 夾爪
 
 [Jaws Front]: ../markdown/images/onshape/Jaws Front.png {#fig:夾爪前視圖}
 
-![Mechanical Arms Overall][]
-
-[Mechanical Arms Overall]: ../markdown/images/onshape/mechanical arms overall.png {#fig:機械手臂整體}
-
 ![Mechanical Arms Right][]
 
 [Mechanical Arms Right]: ../markdown/images/onshape/mechanical arms Right.png {#fig:機械手臂右側視圖}
