@@ -27,15 +27,47 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180827201621.13" a="E"><vh>機械手臂內容</vh>
+<v t="leo.20180827201621.14"><vh>摘要</vh>
+<v t="leo.20180827201621.15"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
+<v t="leo.20180827201621.16"><vh>前言</vh>
+<v t="leo.20180827201621.17"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
+<v t="leo.20190106100459.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20180827201621.18"><vh>模擬影片</vh>
+<v t="leo.20180827201621.19"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190106111724.1" a="E"><vh>第一週</vh>
+<v t="leo.20190106103652.1" a="E"><vh>機械手臂各部位介紹</vh>
+<v t="leo.20190106103652.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106104016.1" a="E"><vh>機械手臂各部位介紹-1</vh>
+<v t="leo.20190106104016.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106104632.1" a="E"><vh>機械手臂各部位介紹-2</vh>
+<v t="leo.20190106104632.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106111753.1" a="E"><vh>機械手臂各部位介紹-3</vh>
+<v t="leo.20190106111753.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106112103.1" a="E"><vh>機械手臂各部位介紹-4</vh>
+<v t="leo.20190106112103.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106112105.1" a="E"><vh>機械手臂各部位介紹-5</vh>
+<v t="leo.20190106112105.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106112108.1" a="E"><vh>機械手臂各部位介紹-6</vh>
+<v t="leo.20190106112108.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106112129.1" a="E"><vh>機械手臂各部位介紹-7</vh>
+<v t="leo.20190106112129.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106112447.1" a="E"><vh>機械手臂各部位介紹-8</vh>
+<v t="leo.20190106112447.2"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -124,9 +156,19 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## bg1分組簡報
+<t tx="leo.20180827201621.10"># BG1分組報告
 
-### 虎科大機械設計工程系
+
+虎科大機械設計工程系
+
+## Mechanical Arms 機械手臂
+
+
+Members
+
+40623201 王君庭40623204 張晏晴40623212 魏有泉40623221 蔡和勳40623227 張耀元40623240 何冠均
+
+指導教授：嚴家銘
 
 &lt;small&gt;
 Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
@@ -171,12 +213,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 						
 </t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
+<t tx="leo.20180827201621.15"># 摘要
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+機械手臂夾爪是由兩個機件組合，雖然不具備多功能不過可以使我們工作更加快速以及順利。設計目標為讓機械手臂擁有360度的旋轉以及搖擺設計。
 </t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -189,33 +228,9 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20180827201621.17"># 前言
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+因為在未來是往自動化工業發展，許多技術都將被機械手臂取代，只剩下基層人員及開發研究員這兩種極端化的現象，因次我們在選擇專題時決定選擇開發我們自己國家的機械手臂，從程式到設計一併研究，選擇增進自己，不被社會淘汰，為未來做準備
 </t>
 <t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -326,5 +341,159 @@ make.start()
 
 						
 </t>
+<t tx="leo.20190106100459.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106100459.2"># 軟體
+
+[Onshape]
+
+[Onshape]:https://www.onshape.com/
+
+&lt;img src=https://upload.cc/i1/2019/01/06/qbhgif.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
+
+[V-rep]
+
+[V-rep]:http://www.coppeliarobotics.com/
+
+</t>
+<t tx="leo.20190106103652.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106103652.2"># 機械手臂設計介紹
+
+
+
+
+</t>
+<t tx="leo.20190106104016.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106104016.2">Base 底座：配合主軸設計的，有孔為了跟主軸配合組裝旁邊有設計放置馬達的地方為
+了帶動主軸旋轉。</t>
+<t tx="leo.20190106104632.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106104632.2">Spindle 主軸：為了配合手臂旋轉所以設計成圓柱狀，並且為了讓手臂搖擺所以有設計凹槽，還有在手臂旋轉旁邊設計了放置馬達的地方以帶動手臂搖擺。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190106111724.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190106111753.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106111753.2">Motor Seat 馬達座：為了放置馬達讓馬達位置固定，左邊孔洞目的是配合馬達形狀而設置。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/Pk5R1h.jpg
+ &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190106112103.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106112103.2">Base Cover 底座蓋：為了使底座的馬達以及主軸順利運動而設計，也避免有其他異物勿入導致馬達無法順利運作。</t>
+<t tx="leo.20190106112105.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106112105.2">Arms 手臂：因為要配合夾爪作動，在手臂的規劃也是很重要的，因此在畫時選擇做三
+節式的手臂，能有更多的自由度可以運動。</t>
+<t tx="leo.20190106112108.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106112108.2">Jaws Disk 夾爪圓盤：目的在於連結夾爪及手臂，並使用馬達達到夾爪可旋轉增加自由度。</t>
+<t tx="leo.20190106112129.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106112129.2">Gears 齒輪：目的在於如何使夾爪嚙合時達到同步的動作，運用齒輪傳遞也可減少馬達
+的使用，但目前在測試中，暫無放上去組合。
+
+&lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190106112447.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106112447.2"> Jaws 夾爪：目的在於夾取物品，形狀會影響夾持力道及夾持的物件外型限制，因此外型主要取決於要夾什麼樣的東西。而我們選擇的夾爪為最常見可以夾外型簡單的物品，而中間的凹槽為放置齒輪的地方。
+ 
+ &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;</t>
 </tnodes>
 </leo_file>
