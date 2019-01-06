@@ -358,7 +358,7 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 [Onshape]:https://www.onshape.com/
 
-&lt;img src=https://upload.cc/i1/2019/01/06/zISbnP.png &lt;width="130" heith="150"&gt;&lt;/a&gt;
+&lt;img src=https://upload.cc/i1/2019/01/06/zISbnP.png &lt;width="90" heith="110"&gt;&lt;/a&gt;
 
 [V-rep]
 
