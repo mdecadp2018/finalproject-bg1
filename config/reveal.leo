@@ -34,7 +34,7 @@
 <v t="leo.20180827201621.16"><vh>前言</vh>
 <v t="leo.20180827201621.17"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106100459.1"><vh>使用軟體</vh>
+<v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
 <v t="leo.20190106100459.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190106103652.1" a="E"><vh>機械手臂各部位介紹-1</vh>
@@ -340,6 +340,10 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 [Onshape]
 
 [Onshape]:https://www.onshape.com/
+
+![Mechanical Arms Overall][]
+
+[Mechanical Arms Overall]: ../markdown/images/onshape/mechanical arms overall.png {#fig:機械手臂整體}
 
 [V-rep]
 
