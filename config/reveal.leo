@@ -358,9 +358,13 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190106100459.2"># 軟體
 
-#Onshape:'https://www.onshape.com/'
+[Onshape]
 
-#V-rep:'http://www.coppeliarobotics.com/'
+[Onshape]:https://www.onshape.com/
+
+[V-rep]
+
+[V-rep]:http://www.coppeliarobotics.com/
 
 </t>
 </tnodes>
