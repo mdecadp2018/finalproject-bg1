@@ -355,13 +355,10 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 [Onshape]
 
-[Onshape]:https://www.onshape.com/
+[Onshape]:https://cad.onshape.com/documents/429daafb77914f889a160104/w/2280df84a1774cf3ed85f2dd/e/9bf3c4eab8edeab3a4836a89
 
 &lt;img src=https://upload.cc/i1/2019/01/06/qbhgif.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-[機械手臂]
-
-[機械手臂]:https://cad.onshape.com/documents/429daafb77914f889a160104/w/2280df84a1774cf3ed85f2dd/e/9bf3c4eab8edeab3a4836a89
 
 [V-rep]
 
