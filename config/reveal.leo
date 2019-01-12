@@ -27,11 +27,11 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>機械手臂內容</vh>
+<v t="leo.20180827201621.13" a="E"><vh>機械手臂內容</vh>
 <v t="leo.20180827201621.14"><vh>摘要</vh>
 <v t="leo.20180827201621.15"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.16"><vh>前言</vh>
+<v t="leo.20180827201621.16" a="E"><vh>前言</vh>
 <v t="leo.20180827201621.17"><vh>內容</vh></v>
 </v>
 <v t="leo.20190106100459.1" a="E"><vh>使用軟體</vh>
@@ -44,32 +44,32 @@
 <v t="leo.20190106205619.3"><vh>內容2</vh></v>
 </v>
 </v>
-<v t="leo.20190106111724.1"><vh>第一週</vh>
-<v t="leo.20190106103652.1"><vh>機械手臂各部位介紹</vh>
+<v t="leo.20190106111724.1" a="E"><vh>第一週</vh>
+<v t="leo.20190106103652.1" a="E"><vh>機械手臂各部位介紹</vh>
 <v t="leo.20190106103652.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106104016.1"><vh>機械手臂各部位介紹-1</vh>
+<v t="leo.20190106104016.1" a="E"><vh>機械手臂各部位介紹-1</vh>
 <v t="leo.20190106104016.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106104632.1"><vh>機械手臂各部位介紹-2</vh>
+<v t="leo.20190106104632.1" a="E"><vh>機械手臂各部位介紹-2</vh>
 <v t="leo.20190106104632.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106111753.1"><vh>機械手臂各部位介紹-3</vh>
+<v t="leo.20190106111753.1" a="E"><vh>機械手臂各部位介紹-3</vh>
 <v t="leo.20190106111753.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106112103.1"><vh>機械手臂各部位介紹-4</vh>
+<v t="leo.20190106112103.1" a="E"><vh>機械手臂各部位介紹-4</vh>
 <v t="leo.20190106112103.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106112105.1"><vh>機械手臂各部位介紹-5</vh>
+<v t="leo.20190106112105.1" a="E"><vh>機械手臂各部位介紹-5</vh>
 <v t="leo.20190106112105.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106112108.1"><vh>機械手臂各部位介紹-6</vh>
+<v t="leo.20190106112108.1" a="E"><vh>機械手臂各部位介紹-6</vh>
 <v t="leo.20190106112108.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106112129.1"><vh>機械手臂各部位介紹-7</vh>
+<v t="leo.20190106112129.1" a="E"><vh>機械手臂各部位介紹-7</vh>
 <v t="leo.20190106112129.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190106112447.1"><vh>機械手臂各部位介紹-8</vh>
+<v t="leo.20190106112447.1" a="E"><vh>機械手臂各部位介紹-8</vh>
 <v t="leo.20190106112447.2"><vh>內容</vh></v>
 </v>
 </v>
@@ -359,6 +359,10 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 &lt;img src=https://upload.cc/i1/2019/01/06/qbhgif.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
+onshape
+
+[onshape]:https://cad.onshape.com/documents/429daafb77914f889a160104/w/2280df84a1774cf3ed85f2dd/e/9bf3c4eab8edeab3a4836a89
+
 [V-rep]
 
 [V-rep]:http://www.coppeliarobotics.com/
@@ -395,7 +399,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 <t tx="leo.20190106104016.2">Base 底座：配合主軸設計的，有孔為了跟主軸配合組裝旁邊有設計放置馬達的地方為
 了帶動主軸旋轉。
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/0ea409f8311d0689b4f680d6/w/e0c70863b4ca01a4afe0ca6f/e/1e1743105658b8e9e59f91d3</t>
 <t tx="leo.20190106104632.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -411,7 +417,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 &lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/287ff2923c13d2ad364fedc7/w/d4ecbed324d9a03509349e21/e/5288f391becbe9df821585e5</t>
 <t tx="leo.20190106111724.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -433,7 +441,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 &lt;img src=https://upload.cc/i1/2019/01/06/Pk5R1h.jpg
  &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/631c7688cd7fabe36cf2e00b/w/be218d6e9d076eb5ad8e841b/e/eec345872294c3a900cd9a01</t>
 <t tx="leo.20190106112103.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -447,7 +457,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190106112103.2">Base Cover 底座蓋：為了使底座的馬達以及主軸順利運動而設計，也避免有其他異物勿入導致馬達無法順利運作。
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/ac7d7c1c0201cf472f14cac4/w/9ce47ec5738f1b7ba9d587fc/e/3889ebe04d4a99d8bc387d2e</t>
 <t tx="leo.20190106112105.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -462,7 +474,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 <t tx="leo.20190106112105.2">Arms 手臂：因為要配合夾爪作動，在手臂的規劃也是很重要的，因此在畫時選擇做三
 節式的手臂，能有更多的自由度可以運動。
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/959530723e3ea31b58ae3d4a/w/38cc14f78428f1fd47e27760/e/308541d5476888c23aff3098</t>
 <t tx="leo.20190106112108.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -476,7 +490,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190106112108.2">Jaws Disk 夾爪圓盤：目的在於連結夾爪及手臂，並使用馬達達到夾爪可旋轉增加自由度。
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/092e399e94f140c2786ae1ae</t>
 <t tx="leo.20190106112129.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -493,7 +509,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 &lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/032c618c1cf9f031bce50e6a</t>
 <t tx="leo.20190106112447.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -509,7 +527,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
  
  &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-</t>
+onshape
+
+[onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/f8aafbd19e3fbc211ce14f25</t>
 <t tx="leo.20190106205619.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -535,6 +555,8 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 </t>
 <t tx="leo.20190107085059.2"># 結論
 
-為了因應未來自動化發展以及智慧型時代，所以我們才選了機械手臂，但做了跟想像中的差了很多，雖然在程式這塊非常重要，但得進到程式還得經過畫圖、組合、模擬計算等等的流程，這些都是不能馬虎的，雖然我們並沒有弄得很困難，但也在這些流程中深深的體會到真的是很不簡單，不過在這後半學期中也是學到了許多，零組件的配合、組合、組合完的作動以及PDF的製作，當中最重要的就是與組員間的溝通討論，這些在未來都是我們需要學習與磨合的。</t>
+為了因應未來自動化發展以及智慧型時代，所以我們才選了機械手臂，但做了跟想像中的差了很多，雖然在程式這塊非常重要，但得進到程式還得經過畫圖、組合、模擬計算等等的流程，這些都是不能馬虎的，雖然我們並沒有弄得很困難，但也在這些流程中深深的體會到真的是很不簡單，不過在這後半學期中也是學到了許多，零組件的配合、組合、組合完的作動以及PDF的製作，當中最重要的就是與組員間的溝通討論，這些在未來都是我們需要學習與磨合的。
+
+</t>
 </tnodes>
 </leo_file>
