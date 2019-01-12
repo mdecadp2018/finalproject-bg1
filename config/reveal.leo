@@ -359,9 +359,9 @@ Created by [bg1](https://github.com/mdecadp2018/finalproject-bg1)
 
 &lt;img src=https://upload.cc/i1/2019/01/06/qbhgif.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-onshape
+[機械手臂]
 
-[onshape]:https://cad.onshape.com/documents/429daafb77914f889a160104/w/2280df84a1774cf3ed85f2dd/e/9bf3c4eab8edeab3a4836a89
+[機械手臂]:https://cad.onshape.com/documents/429daafb77914f889a160104/w/2280df84a1774cf3ed85f2dd/e/9bf3c4eab8edeab3a4836a89
 
 [V-rep]
 
@@ -399,9 +399,9 @@ onshape
 <t tx="leo.20190106104016.2">Base 底座：配合主軸設計的，有孔為了跟主軸配合組裝旁邊有設計放置馬達的地方為
 了帶動主軸旋轉。
 
-onshape
+[Base 底座]
 
-[onshape]:https://cad.onshape.com/documents/0ea409f8311d0689b4f680d6/w/e0c70863b4ca01a4afe0ca6f/e/1e1743105658b8e9e59f91d3</t>
+[Base 底座]:https://cad.onshape.com/documents/0ea409f8311d0689b4f680d6/w/e0c70863b4ca01a4afe0ca6f/e/1e1743105658b8e9e59f91d3</t>
 <t tx="leo.20190106104632.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -417,9 +417,9 @@ onshape
 
 &lt;img src=https://upload.cc/i1/2019/01/06/Xaq3Ys.jpg &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-onshape
+[Spindle 主軸]
 
-[onshape]:https://cad.onshape.com/documents/287ff2923c13d2ad364fedc7/w/d4ecbed324d9a03509349e21/e/5288f391becbe9df821585e5</t>
+[Spindle 主軸]:https://cad.onshape.com/documents/287ff2923c13d2ad364fedc7/w/d4ecbed324d9a03509349e21/e/5288f391becbe9df821585e5</t>
 <t tx="leo.20190106111724.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -441,9 +441,9 @@ onshape
 &lt;img src=https://upload.cc/i1/2019/01/06/Pk5R1h.jpg
  &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-onshape
+[Motor Seat 馬達座]
 
-[onshape]:https://cad.onshape.com/documents/631c7688cd7fabe36cf2e00b/w/be218d6e9d076eb5ad8e841b/e/eec345872294c3a900cd9a01</t>
+[Motor Seat 馬達座]:https://cad.onshape.com/documents/631c7688cd7fabe36cf2e00b/w/be218d6e9d076eb5ad8e841b/e/eec345872294c3a900cd9a01</t>
 <t tx="leo.20190106112103.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -457,9 +457,9 @@ onshape
 </t>
 <t tx="leo.20190106112103.2">Base Cover 底座蓋：為了使底座的馬達以及主軸順利運動而設計，也避免有其他異物勿入導致馬達無法順利運作。
 
-onshape
+[Base Cover 底座蓋]
 
-[onshape]:https://cad.onshape.com/documents/ac7d7c1c0201cf472f14cac4/w/9ce47ec5738f1b7ba9d587fc/e/3889ebe04d4a99d8bc387d2e</t>
+[Base Cover 底座蓋]:https://cad.onshape.com/documents/ac7d7c1c0201cf472f14cac4/w/9ce47ec5738f1b7ba9d587fc/e/3889ebe04d4a99d8bc387d2e</t>
 <t tx="leo.20190106112105.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -474,9 +474,9 @@ onshape
 <t tx="leo.20190106112105.2">Arms 手臂：因為要配合夾爪作動，在手臂的規劃也是很重要的，因此在畫時選擇做三
 節式的手臂，能有更多的自由度可以運動。
 
-onshape
+[Arms 手臂]
 
-[onshape]:https://cad.onshape.com/documents/959530723e3ea31b58ae3d4a/w/38cc14f78428f1fd47e27760/e/308541d5476888c23aff3098</t>
+[Arms 手臂]:https://cad.onshape.com/documents/959530723e3ea31b58ae3d4a/w/38cc14f78428f1fd47e27760/e/308541d5476888c23aff3098</t>
 <t tx="leo.20190106112108.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -490,7 +490,7 @@ onshape
 </t>
 <t tx="leo.20190106112108.2">Jaws Disk 夾爪圓盤：目的在於連結夾爪及手臂，並使用馬達達到夾爪可旋轉增加自由度。
 
-onshape
+[onshape]
 
 [onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/092e399e94f140c2786ae1ae</t>
 <t tx="leo.20190106112129.1">&lt;section data-markdown&gt;
@@ -509,9 +509,9 @@ onshape
 
 &lt;img src=https://upload.cc/i1/2019/01/06/lepE7O.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-onshape
+[Gears 齒輪]
 
-[onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/032c618c1cf9f031bce50e6a</t>
+[Gears 齒輪]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/032c618c1cf9f031bce50e6a</t>
 <t tx="leo.20190106112447.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -527,9 +527,9 @@ onshape
  
  &lt;img src=https://upload.cc/i1/2019/01/06/E3L0rb.png &lt;width="252" heith="316"&gt;&lt;/a&gt;
 
-onshape
+[Jaws 夾爪]
 
-[onshape]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/f8aafbd19e3fbc211ce14f25</t>
+[Jaws 夾爪]:https://cad.onshape.com/documents/ddbae230335f3954132fe7c9/w/575fc8ba43bcb5db0f669e42/e/f8aafbd19e3fbc211ce14f25</t>
 <t tx="leo.20190106205619.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
